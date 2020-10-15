@@ -1,17 +1,22 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: minmax(100px, 100px);
     grid-auto-columns: minmax(100px,200px);
-    grid-gap: 1vw;
+    background-image: url(../Background.jpg);
+    background-size: cover;
+    margin-top: 10px;
 }
 
 .main {
     grid-column: auto;
     border: 1px dimgray;
     background-color: lightgrey;
+    display: flex;
 }
 
 .menu {
-
+    display: flex;
+}
+.filler {
 }
