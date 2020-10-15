@@ -1,0 +1,13 @@
+body {
+    background-image: url(../"");
+    background-color: sandybrown;
+}
+h1{
+    font-family: Arial;
+    margin-left: 385px;
+}
+h2 {
+    font-family: Arial;
+    font-size: 16px;
+    margin-left: 10px;
+}
