@@ -1,12 +1,5 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-auto-rows: minmax(100px, 100px);
-    grid-auto-columns: minmax(100px,200px);
-    background-image: url(../Background.jpg);
-    background-size: cover;
-    margin-top: 10px;
-    grid-gap: 0.2px;
 }
 
 .main {
@@ -25,7 +18,7 @@
 .filler {
 }
 
-.midlle{
+.middle{
     grid-column: auto;
     border: 1px dimgray;
     background-color: lightgrey;
